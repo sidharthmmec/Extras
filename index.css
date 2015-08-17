@@ -1,0 +1,129 @@
+/* Input css from chrome so that it looks the same across browsers */
+input:focus,textarea:focus,select:focus{
+  border:1px solid #fafafa;
+  -webkit-box-shadow:0 0 6px #007eff;
+  -moz-box-shadow:0 0 5px #007eff;
+  box-shadow:0 0 5px #007eff;
+  outline: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	-moz-border-radius: 0px;	
+	-webkit-border-radius: 0px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	height: 31px;
+}
+
+input[type="text"], input[type="password"], textarea {
+background: #fff;
+border: 1px solid #ccc;
+font-size: 12px;
+padding: 4px;
+}
+
+i { 
+	padding: 3px;
+	cursor: pointer; 
+}
+
+
+/*** Common styles in Content disco  ***/
+.clear-cd {clear: both;height: 10px;}
+.clear-vertical-select {clear: both;height: 5px;}
+.no-display {display: none;}
+.jqimessage div{color: #FF0000;}
+.colorbox_loading {text-align:center; margin-top:75px;}
+.content .container_12 {padding: 0px 0px 30px;}
+/*** Listing page ***/
+.loading_message {
+    font-size:24px;
+    margin:75px 0 20px 285px;
+}
+#cd-empty { 
+	display:none;
+	font-size:18px;
+    margin:75px 0 20px 330px;
+}
+/***/
+
+/*** Add/Edit Content Disco UI ***/
+#cd_edit_name, #cd_name {width: 589px;}
+#cd_budget_group, #cd_pixel, #cd_edit_budget_group, #cd_edit_pixel {width: 275px;}
+#cd_type, #cd_edit_type {
+	width: 145px;
+	float: right;
+}
+#cd_edit_name, #cd_edit_brand, #edit_div_brand, #edit_div_cd_name {
+    padding:0;
+    width:100%;
+}
+#edit_cd_popup {
+    width:98%;
+}
+#cd_pub_id { width: 120px;}
+#cd_domain { width: 348px; margin-left: 7px;}
+#cd_actions {float: right;}
+#contentdisco_table, #add_content_disco_error, #edit_content_disco_error {display: none;}
+#edit_div_cd_bg, #div_cd_bg {height: 25px;}
+/***/
+
+/*** Trending content  ***/
+.pub-id-cmmn {width: 140px;}
+.domain-cmmn {width: 420px; margin-left: 10px;}
+
+/*** Brand ***/
+
+/*** Vertical Audience ***/
+.add-more-bttn{margin-left: 390px!important;}
+.header-audience-cmmn {font-weight: bold;}
+.cs_ad_select {width: 600px; margin-left: 2px; height: 55px;}
+.select_cmmn {margin-left: 240px; }
+
+/*** Message Showing  ***/
+#message_div {min-height: 22px;}
+.message-shown {
+    background: none repeat scroll 0 0 #EEEEEE; //#F6F7F8;
+    border-color: #DFDFDF;
+    border-style: none solid solid;
+    border-width: 1px;
+    min-height: 15px;
+    padding-top: 2px;
+    text-align: center;
+    width: 375px;
+    margin-left: 290px;
+    display: none;
+}
+
+
+.add_all_audcens{
+    clear: both;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.add_all_audcens:hover {
+    color:#FE6D4C!important;
+}
+
+.segment-list {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 105px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 25px;
+}
+
+.assign-id { width: 530px; float: left;}
+.assign-rmv { width: 42px; float: left; cursor: pointer; text-align: center;}
+.segment-in-pad { padding-left: 5px;}
+.tag_secondth_row {background-color: #ECECEC;}
+#segment_list_header{ width: 600px; float: left;}
+.main-head-style {font-weight: bold; line-height: 20px; padding-left: 5px;}
+#add_cd_popup, #edit_cd_popup {padding-left: 1px;}
